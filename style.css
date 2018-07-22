@@ -37,7 +37,7 @@ header > p {
 
 .social-media {
   display: inline;
-  margin-left: 340px;
+  margin-left: 320px;
 }
 
 .social-media > img {
@@ -60,6 +60,7 @@ h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 40pt;
   font-weight: 700;
+  margin: 10px 0;
 }
 
 h3 {
@@ -71,10 +72,10 @@ h3 {
 
 p {
   font-family: 'Playfair Display', serif;
-  font-size: 12pt;
+  font-size: 10pt;
   text-indent: 2pc;
   margin-bottom: 1.5pc;
-  letter-spacing: .8px;
+  letter-spacing: 100%;
 }
 
 p.subline {
@@ -88,24 +89,29 @@ p.subline {
 
 img.print {
   position: absolute;
-  left: 750px;
+  left: 760px;
 }
 
 button.print {
   position: absolute;
-  outline: dotted 2px magenta;
-  left: 770px;
+  left: 785px;
   color: rgb(148, 148, 148);
-  font-size: 10pt;
+  font-size: 9pt;
   font-weight: 200;
   padding: 0;
-  outline: none;
+  border: 0;
+}
+
+div {
+  height: 20px;
 }
 
 .main-recipe {
   width: 700px;
   outline: dotted 2px magenta;
   margin: 26px 0 0 0;
+  line-height: 125%;
+  color: rgb(95, 95, 95);
 }
 
 .author > p {
