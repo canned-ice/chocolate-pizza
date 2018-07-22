@@ -7,43 +7,59 @@ font-family: 'Yellowtail', cursive; */
 }
 
 .container {
+  box-sizing: content-box;
   width: 960px;
-  position: relative;
-  outline: dotted 2px magenta;
+  padding-left: 120px;  
+  padding-right: 120px;
 }
 
 .logo {
-  outline: dotted 2px magenta;
-  margin: 10px 0 0 100px;
+  margin: 60px 0 0 0;
+  display: inline;
+  box-sizing: content-box;
+
 }
 
 h1 {
-  position: absolute;
   font-family: 'Yellowtail', cursive;
   font-weight: bold;
   font-size: 23pt;
-  display: inline-block;
-  outline: dotted 2px magenta;
-  margin: 10px 0 0 0;
+  display: inline;
+  position: absolute;
+  top: 60px;
 }
 
 header > p {
   font-family: sans-serif;
   font-size: 6pt;
-  display: inline-block;
-  outline: dotted 2px magenta;
+  display: inline;
+}
+
+.social-media {
+  display: inline;
+  margin-left: 340px;
 }
 
 .social-media > img {
-  display: inline-block;
-  outline: dotted 2px magenta;
+  margin: 0 -2px 10px -1px;
+}
+
+.ruler {
+  position: relative;
+  box-sizing: content-box;
+  font-family: sans-serif;
+  font-size: 8pt;
+  margin: 36px 0 50px 0;
+  width: 700px;
+  font-weight: lighter;
+  text-align: justify;
+  letter-spacing: .1px;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 40pt;
-  font-weight: 800;
-  outline: dotted 2px magenta;
+  font-weight: 700;
 }
 
 h3 {
@@ -55,18 +71,41 @@ h3 {
 
 p {
   font-family: 'Playfair Display', serif;
-  font-size: 18pt;
+  font-size: 12pt;
+  text-indent: 2pc;
+  margin-bottom: 1.5pc;
+  letter-spacing: .8px;
 }
 
 p.subline {
   font-family: 'Oswald', sans-serif;
   font-size: 12pt;
   color: rgb(148, 148, 148);
+  text-indent: 0;
+  font-weight: 200;
+  display: inline;
+}
+
+img.print {
+  position: absolute;
+  left: 750px;
+}
+
+button.print {
+  position: absolute;
+  outline: dotted 2px magenta;
+  left: 770px;
+  color: rgb(148, 148, 148);
+  font-size: 10pt;
+  font-weight: 200;
+  padding: 0;
+  outline: none;
 }
 
 .main-recipe {
   width: 700px;
   outline: dotted 2px magenta;
+  margin: 26px 0 0 0;
 }
 
 .author > p {
