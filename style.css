@@ -3,7 +3,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Yellowtail', cursive; */
 
 * {
-  background-color: aqua;
+  /* background-color: rgb(69, 226, 226); */
 }
 
 .container {
@@ -37,7 +37,7 @@ header > p {
 
 .social-media {
   display: inline;
-  margin-left: 320px;
+  margin-left: 340px;
 }
 
 .social-media > img {
@@ -102,7 +102,7 @@ button.print {
   border: 0;
 }
 
-div {
+div.ruler {
   height: 20px;
 }
 
@@ -126,7 +126,29 @@ footer > p {
   color: rgb(148, 148, 148);
 }
 
+div.list {
+  position: relative;
+}
+
+div.list + div {
+  margin: 20px 0;
+}
+
+ul {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  column-count: 2;
+  height: 180px;
+  width: 560px;
+}
+
 li {
   font-family: 'Patrick Hand', cursive;
-  font-size: 18pt;
+  font-size: 12pt;
+  margin: 7px 0;
 }
+
+.checked {
+  text-decoration-line: line-through;
+/* } */
