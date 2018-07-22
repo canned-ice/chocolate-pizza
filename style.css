@@ -63,13 +63,6 @@ h2 {
   margin: 10px 0;
 }
 
-h3 {
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
-  font-size: 18pt;
-  outline: dotted 2px magenta;
-}
-
 p {
   font-family: 'Playfair Display', serif;
   font-size: 10pt;
@@ -108,22 +101,51 @@ div.ruler {
 
 .main-recipe {
   width: 700px;
-  outline: dotted 2px magenta;
   margin: 26px 0 0 0;
   line-height: 125%;
   color: rgb(95, 95, 95);
 }
 
+.author {
+  position: relative;
+  color: rgb(78, 78, 78);
+}
+
 .author > p {
-  font-size: 18pt;
+  text-indent: 0%;
+  font-size: 10pt;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  letter-spacing: 0.02em;
+  width: 460px;
+  line-height: 150%;
 }
 
 .author > h3 {
-  font-size: 20pt;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 12pt;
+  letter-spacing: .03em;
+  display: inline;
+  position: absolute;
+  top: 5px;
+  left: 70px;
 }
 
-footer > p {
-  color: rgb(148, 148, 148);
+.author > button {
+  box-sizing: border-box;
+  position: absolute;
+  top: 20px;
+  left: 555px;
+  width: 140px;
+  height: 45px;
+  border-style: none;
+  background-color: rgb(168, 96, 96);
+  color: rgb(236, 236, 236);
+  font-size: 10pt;
+  font-weight: 200;
+  letter-spacing: 0;
 }
 
 div.list {
@@ -151,4 +173,45 @@ li {
 
 .checked {
   text-decoration-line: line-through;
-/* } */
+}
+
+footer {
+  position: relative;
+  width: 960px;
+}
+
+footer > img {
+  position: absolute;
+  left: 460px;
+  top: 50px;
+}
+
+div.foot {
+  position: absolute;
+  top: 85px;
+  left: 120px;
+  width: 600px;
+}
+
+.foot > p {
+  display: inline;
+  font-size: 8pt;
+  color: rgb(148, 148, 148);
+
+}
+
+p.copyrite {
+  position: absolute;
+  left: 235px;
+}
+
+p.rights {
+  position: absolute;
+  left: 320px;
+}
+
+p.publisher {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
