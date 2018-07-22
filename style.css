@@ -2,56 +2,79 @@
 font-family: 'Playfair Display', serif;
 font-family: 'Yellowtail', cursive; */
 
+* {
+  background-color: aqua;
+}
+
 .container {
   width: 960px;
   position: relative;
+  outline: dotted 2px magenta;
+}
+
+.logo {
+  outline: dotted 2px magenta;
+  margin: 10px 0 0 100px;
 }
 
 h1 {
+  position: absolute;
   font-family: 'Yellowtail', cursive;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 23pt;
   display: inline-block;
+  outline: dotted 2px magenta;
+  margin: 10px 0 0 0;
 }
 
 header > p {
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 6pt;
+  display: inline-block;
+  outline: dotted 2px magenta;
+}
+
+.social-media > img {
+  display: inline-block;
+  outline: dotted 2px magenta;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 40px;
+  font-size: 40pt;
   font-weight: 800;
+  outline: dotted 2px magenta;
 }
 
 h3 {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 18pt;
+  outline: dotted 2px magenta;
 }
 
 p {
   font-family: 'Playfair Display', serif;
-  font-size: 18px;
+  font-size: 18pt;
 }
 
 p.subline {
   font-family: 'Oswald', sans-serif;
-  font-size: 12px;
+  font-size: 12pt;
   color: rgb(148, 148, 148);
 }
 
 .main-recipe {
   width: 700px;
+  outline: dotted 2px magenta;
 }
 
 .author > p {
-  font-size: 18px;
+  font-size: 18pt;
 }
 
 .author > h3 {
-  font-size: 20px;
+  font-size: 20pt;
 }
 
 footer > p {
@@ -60,5 +83,5 @@ footer > p {
 
 li {
   font-family: 'Patrick Hand', cursive;
-  font-size: 18px;
+  font-size: 18pt;
 }
